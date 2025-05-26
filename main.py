@@ -25,13 +25,4 @@ print(" Prime Gaming Bot فعال شد و هر روز ساعت ۹ صبح پیا�
 while True:
     schedule.run_pending()
     time.sleep(60)
-```
 
-✅ پس دو فایل نیاز داری:
-1️⃣ main.py → همین کد بالا رو بذار توش.
-2️⃣ requirements.txt → محتواش این باشه:
-```
-requests
-python-telegram-bot==13.15
-schedule
-```
